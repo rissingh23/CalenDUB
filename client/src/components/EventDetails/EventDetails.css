@@ -1,0 +1,52 @@
+.event-details {
+  width: 20rem;
+  height: 20rem;
+  padding: 1rem;
+}
+
+.event-details h1 {
+  font-size: 1.25rem;
+}
+
+.event-details h2 {
+  font-size: 1rem;
+  color: #4f4f4f;
+}
+
+.event-details p {
+  font-size: 0.8rem;
+  text-wrap: wrap;
+  word-break: break-all;
+}
+
+.event-details .close-button {
+  position: absolute;
+  top: 0.25rem;
+  right: 0.75rem;
+  font-size: 1.25rem;
+  background: none;
+  color: #4f4f4f;
+  border: none;
+  cursor: pointer;
+}
+
+.event-details .event-name {
+  width: 95%;
+}
+
+.event-details span {
+  display: flex;
+  align-items: center;
+  gap: 0.375rem;
+}
+
+.event-details .icon {
+  height: 0.875rem;
+  width: 0.875rem;
+  border-radius: 100%;
+}
+
+.event-details .time {
+  color: #4f4f4f;
+  font-weight: 500;
+}

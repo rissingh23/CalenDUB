@@ -1,0 +1,148 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  background-color: #fff;
+}
+
+.header-branding {
+  display: flex;
+  align-items: center;
+}
+
+.header-branding-logo {
+  height: 40px;
+  margin-right: 0.5rem;
+}
+
+.header-branding-name {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 0;
+  color: #333;
+}
+
+.header-cta {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.header-cta button {
+  cursor: pointer;
+  font-size: 0.9rem;
+  font-weight: 600;
+  border: none;
+  padding: 0.6rem 1rem;
+  border-radius: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.header-cta-login {
+  background-color: #cbc3e3;
+  color: #333;
+}
+
+.header-cta-login:hover {
+  background-color: #aa9bd8;
+}
+
+.header-cta-signup {
+  background-color: #f6e69f;
+  color: #000;
+}
+
+.header-cta-signup:hover {
+  background-color: #f1e3a4;
+}
+
+.header-profile-view {
+  display: flex;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+}
+
+.default-profile-image {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 0.5rem;
+  border: 2px solid #ccc;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 50px;
+  right: 0;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  z-index: 1000;
+  min-width: 150px;
+}
+
+.dropdown-menu a,
+.dropdown-menu button {
+  display: block;
+  padding: 0.8rem 1rem;
+  text-decoration: none;
+  color: #333;
+  font-size: 0.9rem;
+  background: none;
+  border: none;
+  text-align: left;
+  width: 100%;
+  cursor: pointer;
+}
+
+.dropdown-menu a:hover,
+.dropdown-menu button:hover {
+  background-color: #f6f6f6;
+}
+
+.header-profile-view {
+  position: relative;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  user-select: none;
+}
+
+.profile-dropdown-toggle {
+  display: flex;
+  align-items: center;
+  gap: 4px; 
+  cursor: pointer;
+}
+
+.caret-icon {
+  font-size: 12px;
+  transition: transform 0.3s ease; 
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 125%;
+  right: 0;
+  background-color: white;
+  border: 1px solid #ddd;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  overflow: hidden;
+  z-index: 100;
+}
+
+.dropdown-menu div {
+  padding: 10px 15px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.dropdown-menu div:hover {
+  background-color: #f0f0f0;
+}

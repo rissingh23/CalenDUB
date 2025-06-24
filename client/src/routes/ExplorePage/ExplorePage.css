@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+.header-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+  z-index: 99;
+}
+
+.explore-page {
+  display: flex;
+  justify-content: center;
+  background-color: #e0dcec;
+  font-weight: 600;
+  font-style: normal;
+  height: 100vh;
+}
+
+.explore-page .grid {
+  display: inline-grid;
+  grid-template-columns: auto auto;
+  gap: 1rem;
+}
+
+.explore-page .sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.explore-page .card {
+  background-color: #f8f8f8;
+  border-style: none;
+  border-radius: 10px;
+  box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.25);
+}
+
+.explore-page-body {
+  display: flex;
+  margin-top: 5.125rem;
+  margin-bottom: 0.5rem;
+  gap: 1rem;
+}

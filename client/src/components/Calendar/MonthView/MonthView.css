@@ -1,0 +1,44 @@
+.calendar-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: auto repeat(var(--week-count), 1fr);
+  width: clamp(45rem, 70vw, 80rem);
+  height: 100%;
+}
+
+.calendar-row {
+  width: 100%;
+  flex-direction: row;
+}
+
+.calendar-cell {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 0.25rem;
+  padding: 0.125rem;
+  border-left: 1px solid #bababa;
+  border-top: 1px solid #bababa;
+  width: 100%;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.day {
+  color: #bababa;
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+
+.calendar-cell:nth-child(7n + 1) {
+  border-left: none;
+}
+
+.calendar-cell:nth-child(-n + 7) {
+  border-top: none;
+  padding-top: 0.25rem;
+}
+
+.calendar-cell:nth-child(-n + 14) {
+  border-top: none;
+}

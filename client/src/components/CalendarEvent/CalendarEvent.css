@@ -1,0 +1,15 @@
+.label {
+  color: #fafafa;
+  width: 100%;
+  padding: 0.125rem;
+  font-size: 0.75rem;
+  font-weight: 500;
+  border-radius: 0.25rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.label:hover {
+  cursor: pointer;
+}
