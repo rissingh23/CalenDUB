@@ -2,7 +2,6 @@
 
 // const { MongoClient } = require('mongodb');
 
-// const uri = 'mongodb+srv://arjunbalaji08:ohQTIA6gr0pLJRBK@cluster0.mes8j.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0';
 
 // const client = new MongoClient(uri);
 
