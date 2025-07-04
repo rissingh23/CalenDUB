@@ -10,6 +10,7 @@ CalenDUB is a full‑stack calendar application designed specifically for Univer
 * **RSO-Specific Calendars**: Filter the master calendar by individual RSOs
 * **RSVP & Reminders**: Sign up for events and get notified before they start
 * **Responsive UI**: Mobile‑friendly design for on‑the‑go access
+<img width="1710" alt="calendub" src="https://github.com/user-attachments/assets/5a625629-225e-4445-a4f9-dcb533aac123" />
 
 ## 🛠️ Tech Stack
 
